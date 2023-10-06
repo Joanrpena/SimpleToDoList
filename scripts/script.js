@@ -13,10 +13,9 @@ function addTask() {
     //Create new List Item for UL
     const newLi = document.createElement('li');
 
-    newLi.id='id';
-
     //New list item will contain input field string
     newLi.innerHTML = taskInput;
+    
     // Add task to list
     taskList.appendChild(newLi);
 
